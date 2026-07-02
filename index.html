@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Mobile Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Advanced SEO Meta Tags -->
+    <title>Universal AI Problem Solver | Free Daily Assistant</title>
+    <meta name="description" content="Solve any daily problem instantly with our Universal AI Problem Solver. From math and coding to email writing and summarizing, get free, high-quality answers powered by Gemini AI.">
+    <meta name="keywords" content="free daily problem solver, AI assistant, online AI tools, Gemini AI solver, math solver AI, email writer AI, homework helper">
+    <meta name="author" content="Your Name or Brand">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://your-vercel-domain.vercel.app/">
+
+    <!-- Open Graph (OG) Tags for Social Media -->
+    <meta property="og:title" content="Universal AI Problem Solver">
+    <meta property="og:description" content="Type any daily problem (math, coding, emails) and let our advanced AI solve it instantly. Try it for free!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://your-vercel-domain.vercel.app/">
+    <meta property="og:image" content="https://your-vercel-domain.vercel.app/og-image.jpg"> <!-- Replace with actual image -->
+    
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Universal AI Problem Solver">
+    <meta name="twitter:description" content="Solve any daily problem instantly using advanced AI. Math, coding, writing—solved in seconds.">
+    <meta name="twitter:image" content="https://your-vercel-domain.vercel.app/og-image.jpg"> <!-- Replace with actual image -->
+
+    <!-- Fonts & CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Markdown Parser for styling Gemini's response -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Universal <span>AI</span> Solver</h1>
+        <p>Describe any problem. Get instant, expert solutions.</p>
+    </header>
+
+    <main>
+        <section class="input-section">
+            <textarea id="user-input" placeholder="E.g., Write a polite decline email, solve this calculus problem, or summarize the French Revolution..." rows="5"></textarea>
+            <button id="solve-btn">
+                <span id="btn-text">Solve My Problem</span>
+                <span class="loader" id="btn-loader" style="display: none;"></span>
+            </button>
+        </section>
+
+        <section id="result-container" class="hidden">
+            <div class="result-header">
+                <h2>Solution</h2>
+                <div class="glow-indicator"></div>
+            </div>
+            <div id="result-text" class="markdown-body">
+                <!-- AI response will be injected here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Universal AI Solver. Powered by Gemini.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
