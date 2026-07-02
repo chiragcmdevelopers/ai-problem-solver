@@ -1,0 +1,24 @@
+{
+  "name": "ai-problem-solver",
+  "version": "1.0.0",
+  "description": "Universal AI Problem Solver powered by Gemini AI",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Static site - no build needed'",
+    "deploy": "vercel"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@vercel/speed-insights": "^1.0.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "ai",
+    "problem-solver",
+    "gemini",
+    "vercel"
+  ],
+  "author": "",
+  "license": "MIT"
+}
